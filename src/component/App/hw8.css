@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(231, 231, 231);
+}
+
+.left {
+  position: fixed;
+  width: 8%;
+  height: 100%;
+  background-color: rgba(40, 46, 40, 0.815);
+}
+.category {
+  padding: 6px 8px 6px 16px;
+  font-size: 25px;
+  color: white;
+  display: block;
+}
+.category:hover,
+.cate-chosen {
+  background-color: rgba(80, 46, 40, 0.815);
+}
+
+.right {
+  margin-left: 8%;
+}
+
+.middle-column {
+  position: fixed;
+  width: 35%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(119, 78, 78, 0.356);
+}
+.item {
+  border: solid black 2px;
+}
+.item:hover,
+.item-chosen {
+  background-color: rgba(80, 46, 40, 0.815);
+  cursor: pointer;
+}
+
+.right-column {
+  margin-left: 40%;
+}
