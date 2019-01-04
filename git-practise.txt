@@ -1,0 +1,2 @@
+1.update master when during develop branch editing
+git checkout master
