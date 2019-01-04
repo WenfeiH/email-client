@@ -35,3 +35,6 @@ before pull merge request, need to check whether remote original branch has chan
 4. want to remove a certain commit£¬SHA will change
 use git rebase&vim 
 	also can edit commit message
+
+
+finally
