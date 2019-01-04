@@ -4,7 +4,7 @@ git checkout -b feature origin/feature
 1.update master when during develop branch editing
 git checkout master
 
-2.merge many small commits-----seems not good, see [4]
+2.merge many small commits-----same result [4]
 git log --oneline -10
 git reset SHA
 (Will show message
@@ -32,6 +32,6 @@ before pull merge request, need to check whether remote original branch has chan
   git rebase <master(local)>
 
 
-4. want to remove a certain commit
+4. want to remove a certain commit£¬SHA will change
 use git rebase&vim 
-also can edit commit message
+	also can edit commit message
