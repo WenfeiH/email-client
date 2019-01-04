@@ -1,2 +1,17 @@
+git reset --hard SHA
+
 1.update master when during develop branch editing
 git checkout master
+
+2.merge many small commits
+git log --oneline -10
+git reset SHA
+(Will show message
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   git-practise.txt)
+so add & commit:
+git add .
+git commit -m ""
