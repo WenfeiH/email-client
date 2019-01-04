@@ -1,9 +1,10 @@
 git reset --hard SHA
+git checkout -b feature origin/feature
 
 1.update master when during develop branch editing
 git checkout master
 
-2.merge many small commits
+2.merge many small commits-----seems not good, see [4]
 git log --oneline -10
 git reset SHA
 (Will show message
@@ -31,3 +32,14 @@ before pull merge request, need to check whether remote original branch has chan
   git rebase <master(local)>
 
 
+4. want to remove a certain commit
+
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+>>>>>>> parent of 418a300... 2
