@@ -15,3 +15,17 @@ Changes not staged for commit:
 so add & commit:
 git add .
 git commit -m ""
+
+3. 
+fork as feature branch
+  git clone <my own forked git repository>
+  git checkout -b <feature branch (new local branch)>
+  
+  git remote add origin <my own forked git repository>
+  git remote add upstream <original git repository>
+  
+ can start your develop
+  git push origin <feature branch(local)>
+before pull merge request, need to check whether remote original branch has changed
+  git pull upstream <master(remote)>
+  git rebase <master(local)>
